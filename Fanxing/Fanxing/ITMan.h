@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Language.h"
 
-@interface ITMan<ObjectType> : NSObject
+@interface ITMan<__contravariant ObjectType> : NSObject
 
 @property (nonatomic,strong) ObjectType language;
 
